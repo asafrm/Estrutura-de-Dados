@@ -1,0 +1,9 @@
+Estruturas não lineares: hierárquicas, permitem que cada elemento esteja conectado a vários outros, formando uma organização mais complexa.
+Nesse tipo de estrutura, um elemento pode ter múltiplos elementos seguintes, sem seguir uma única sequência ordenada.
+
+EXEMPLOS:
+•Árvores
+•Grafos
+
+FONTE:  https://hood.com.br/new/filegator/repository/Estrutura%20de%20Dados/10%20Livro%20Estrutura%20de%20Dados.pdf
+

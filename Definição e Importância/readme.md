@@ -1,0 +1,1 @@
+A escolha da estrutura de dados afeta o desempenho do programa, assim as informações podem ser acessada e manipuladarápido fácilmente. Estruturas bem projetadas reduzem a complexidade de realizar buscas, inserções e remoções, facilitando o seu uso. Nas listas lineares sequenciais permitem ações rápidas, árvores e grafos são otimos armazenamentos de dados hierárquicos e redes.
