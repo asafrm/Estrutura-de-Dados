@@ -1,4 +1,6 @@
-class Pilha:
+#Sistema de cadastramento de notas utilizando o sistema de pilhas em Python:
+
+class Nota:              #definição de uma classe
     def __init__(self):
         self.itens = []
 
@@ -12,13 +14,13 @@ class Pilha:
         if not self.esta_vazia():
             return self.itens.pop()
         else:
-            raise IndexError("A pilha está vazia")
+            raise IndexError("Sem notas encontradas")
 
     def topo(self):
         if not self.esta_vazia():
             return self.itens[-1]
         else:
-            raise IndexError("A pilha está vazia")
+            raise IndexError("Sem notas encontradas")
 
     def tamanho(self):
         return len(self.itens)
@@ -28,21 +30,22 @@ class Pilha:
 
 
 # Exemplo de uso
-pilha = Pilha()
+nota = Nota()
 
-pilha.empilhar(10)
-pilha.empilhar(20)
-pilha.empilhar(30)
-pilha.empilhar(40)
-pilha.empilhar(50)
+nota.empilhar(10)
+nota.empilhar(9.5)
+nota.empilhar(8)
+nota.empilhar(5)
 
 
-print("Pilha:", pilha)  # Saída: Pilha: [10, 20, 30, 40, 50]
+print("Notas cadastradas:", nota)  # Saída: Nota: [10, 9.5, 8, 5]
 
-print("Topo da pilha:", pilha.topo())  # Saída: Topo da pilha: 50
+print("Última nota cadastrada:", nota.topo())  # Saída: Topo da pilha: 5
 
-print("Desempilhando:", pilha.desempilhar())  # Saída: Desempilhando: 50
+print("Removendo nota:", nota.desempilhar())  # Saída: Removendo nota: 5
 
-print("Pilha após desempilhar:", pilha)  # Saída: Pilha após desempilhar: [10, 20, 30, 40]
+print("Notas ainda cadastradas:", nota)  # Saída: Pilha após desempilhar: [10, 9.5, 8]
 
-print("Tamanho da pilha:", pilha.tamanho())  # Saída: Tamanho da pilha: 4
+print("Quantidade de notas cadastradas:", nota.tamanho())  # Saída: Quantidade de notas cadastradas: 3
+
+print("Verificando se não há notas cadastradas:", nota.esta_vazia())  # Saída: False (a pilha não está vazia)
