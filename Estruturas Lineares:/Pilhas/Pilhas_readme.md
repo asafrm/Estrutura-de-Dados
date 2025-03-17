@@ -5,11 +5,11 @@ A estrutura de pilhas é baseada em uma organização cujo princípio é o LIFO 
 ### Operações Base de uma Pilha 
 Para realizar a estruturação de uma pilha são utilizadas algumas operações, sendo elas:
  
-    - PUSH: tem a função de empilhar um elemento;
-    - SIZE: retorna o tamanho atual da pilha;
-    - TOP: retorna o valor presente no topo da pilha, sem realizar alteração no elemento;
-    - POP: têm a função de desempilhar elementos na pilha;
-    - EMPTY: verifica se a pilha está vazia.
+  1.   PUSH: tem a função de empilhar um elemento;
+  2. SIZE: retorna o tamanho atual da pilha;
+  3. TOP: retorna o valor presente no topo da pilha, sem realizar alteração no elemento;
+  4. POP: têm a função de desempilhar elementos na pilha;
+  5. EMPTY: verifica se a pilha está vazia.
 
 ### Pilhas em Python
 Tendo em vista que pilhas se tratam de um tipo de dado abstrado, em python, assim como em outras linguagens de programação orientada a objetos, tratamos esses dados a partir da criação de uma classe.
