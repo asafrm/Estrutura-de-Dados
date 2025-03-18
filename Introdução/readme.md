@@ -1,6 +1,6 @@
 Introdução às Estruturas de Dados:
 
-Explique o que são estruturas de dados e qual a sua importância no contexto da ciência da computação.
+
 
 A estrutura de dados é um conjunto de teorias e práticas que definem como os dados podem ser armazenados, representados e manipulados de forma eficiente. Os dados, em sua forma bruta, são valores sem significado e, isoladamente, não possuem relevância. A estrutura, por sua vez, determina a organização desses dados, permitindo seu armazenamento e manipulação de maneira otimizada.
 
