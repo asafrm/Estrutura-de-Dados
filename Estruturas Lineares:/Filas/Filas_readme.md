@@ -28,9 +28,45 @@ Essas operações formam a base para a manipulação eficiente de filas, garanti
 
 Em python temos a possibilidade de criarmos uma fila seguindo o padrão FIFO, deste modo, elaborando uma fila clássica, ou também podemos elaborar uma dfila de duas cabeças (deque). Analisando os dois formados temos:
 
-# Fila clássica
+# Na prática
 
 Para criar uma fila clássica ou um deque vazio, utiliza-se o seguinte código:
 
+    #Cria uma fila clássica para armazenar as notas dos alunos
+    fila_notas = deque()
 
+    #Cria um deque para armazenar as notas dos alunos
+    deque_notas = deque()
 
+A fila e deque criados estão vazios, podemos então atribuir valores iniciais para esses conjuntos seguindo seguinte exemplo:
+
+    fila_notas = deque([6, 4.5, 9])
+    deque_notas = deque([6, 4.5, 9])
+
+E para que seja inserido elementos nesses conjuntos, utilizamos métodos como:
+
+    #Adiciona notas à fila (enqueue)
+    fila_notas.append(7.5)  # Nota do aluno 1
+    fila_notas.append(8.0)  # Nota do aluno 2
+    fila_notas.append(5.5)  # Nota do aluno 3
+
+Para remover algum elemento do conjunto, utilizamos o seguinte método:
+
+    nota = fila_notas.popleft()  # Remove a nota mais antiga (dequeue)
+
+Para verificar se a fila está vazia, utilizamos:
+
+    len(fila_notas) == 0:  # Verifica se o deque está vazio
+
+Se desejarmos verificar o tamanho da fila, usamos o seguinte método:
+
+    len(fila_notas) #Retorna a quantidade de elementos presentes na fila
+
+Também temos a possibilidade de verificar quantas vezes um elemento foi repetido dentro de uma fila, seguindo o método:
+
+    fila_notas.count(7.5) #Retorna o número de vezes que a nota foi repetida
+
+Como diferencial, um deque conto com método que possibilita a inserção de um elemento no ínicio da fila e não apenas no fim:    
+
+    # Adiciona uma nota prioritária no início do deque
+    deque_notas.appendleft(8.5)  # Nota prioritária do aluno 5

@@ -1,4 +1,4 @@
-#Sistema de cadastramento de notas utilizando o sistema de pilhas em Python:
+### Sistema de cadastramento de notas utilizando o sistema de pilhas em Python:
 
 class Nota:              #definição de uma classe
     def __init__(self):
