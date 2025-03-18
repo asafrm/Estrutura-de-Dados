@@ -1,9 +1,11 @@
-# Variáveis:
+Variáveis
+ 
+Outro recurso computacional criado por um algoritmo e que permite a variação de seu valor armazenado na memória durante uma mesma execução deste algoritmo, é denominado variável. Os valores guardados por este importante recurso podem ser incertos, instáveis ou inconstantes, conforme a situação a ser processada pelo computador.
 
-Uma variável é um mecanismo fundamental na programação utilizado para armazenar valores temporários na memória do computador. Em termos técnicos, uma variável é identificada por um nome simbólico (ou identificador), que serve como uma referência a um endereço específico na memória onde o valor associado é armazenado. Esse nome simbólico permite que o programador acesse e manipule o valor de forma intuitiva, sem a necessidade de conhecer o endereço físico de memória. 
+ 
+Similar às constantes, uma variável exige um tipo de dado conhecido pelo computador e um identificador para ser criada e manipulada na memória do mesmo. No entanto, este recurso pode guardar um ou vários valores de um mesmo tipo de dado nesta área de memória, conforme seja necessário ao computador processar o algoritmo elaborado e em execução.
 
-As variáveis desempenham um papel crucial na flexibilidade e eficiência dos programas, pois permitem que os dados sejam atribuídos, alterados e acessados de maneira dinâmica durante a execução. Por exemplo, em um programa que realiza cálculos matemáticos, uma variável pode armazenar um número que será modificado ao longo do processamento, enquanto em um sistema de gerenciamento de usuários, uma variável pode armazenar temporariamente o nome de um usuário para validação ou exibição.
+ 
+Apesar da variável poder armazenar vários valores de um mesmo tipo, ela só consegue guardar um valor por vez, ou seja, o armazenamento de uma variável não é simultâneo de vários valores, mas somente um de cada vez (sobreposição dos valores de uma mesma variável na memória).
 
-Além disso, as variáveis estão intrinsecamente ligadas aos tipos de dados, que definem a natureza e o formato do valor armazenado (como inteiros, números decimais, textos ou valores booleanos). Essa associação entre variáveis e tipos de dados é essencial para garantir que o sistema aloque a quantidade adequada de memória e realize operações compatíveis com o valor armazenado. 
-
-Em resumo, as variáveis são elementos essenciais na programação, proporcionando uma abstração que simplifica a manipulação de dados e contribui para a organização e eficiência do código. Sua correta utilização é fundamental para o desenvolvimento de programas robustos e de alto desempenho.
+Fonte:https://sae.unb.br/cae/conteudo/unbfga/apc/new_conceitosfundamentais.html
