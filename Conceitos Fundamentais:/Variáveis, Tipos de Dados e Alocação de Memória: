@@ -1,5 +1,0 @@
-onceitos Fundamentais: Variáveis, Tipos de Dados e Alocação de Memória:
-
-Defina os conceitos de variáveis e tipos de dados, e explique como eles estão relacionados com a alocação de memória.
-Explique a diferença entre alocação de memória estática e dinâmica, fornecendo exemplos de cada tipo.
-No Repositório do GitHub, crie uma pasta "Conceitos-Fundamentais", dentro dessa pasta crie duas pastas, "Alocação-Estática" e "Alocação-Dinâmica". Dentro de cada pasta, crie um arquivo readme.md explicando o tipo de alocação de memória da pasta, e um arquivo .py ou .js exemplificando o funcionamento da alocação de memória.

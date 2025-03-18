@@ -93,6 +93,6 @@ O valor retornado sera False, visto que a pilha possui elemntos cadastrados
 
 # REFERÊNCIAS:
 
-1.  MILLER, Brad. Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python. Projeto Panda, 2019. https://panda.ime.usp.br/panda/static/pythonds_pt/index.html. Acessado em: 18 mar. 2025.
+1.  MILLER, Brad. Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python. Projeto Panda, 2019. Disponível em: https://panda.ime.usp.br/panda/static/pythonds_pt/index.html. Acessado em: 18 mar. 2025.
 
 2.  CARVALHO, Thiago Leite. Estruturas de Dados. São Paulo: Casa do Código, 2024.

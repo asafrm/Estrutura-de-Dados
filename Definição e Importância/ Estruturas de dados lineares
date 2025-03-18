@@ -1,9 +1,18 @@
-Estrutura de dados linear: são aquelas em que os elementos estão organizados em uma sequência ordenada.
-Isso significa que, a partir de um elemento, há um próximo na sequência, seguindo uma ordem específica.
+# Estrutura de Dados Linear:
 
-EXEMPLOS:
-•Pilhas
-•Filas
-•Lista
+    São aquelas em que os elementos estão organizados em uma sequência ordenada, seguindo uma lógica de organização que permite acessar, inserir ou remover itens de maneira sistemática. Isso significa que, a partir de um determinado elemento, é possível identificar um próximo na sequência, respeitando uma ordem específica predefinida. Essa característica torna as estruturas lineares particularmente eficientes para determinadas operações, como buscas, inserções e remoções, dependendo da implementação escolhida.
 
-FONTE: https://hood.com.br/new/filegator/repository/Estrutura%20de%20Dados/10%20Livro%20Estrutura%20de%20Dados.pdf
+# Exemplos:
+
+1.  Pilhas (Stacks): 
+    Estruturas que seguem o princípio LIFO (Last In, First Out), em que o último elemento inserido é o primeiro a ser removido.
+
+2.  Filas (Queues):
+    Estruturas que operam com base no princípio FIFO (First In, First Out), em que o primeiro elemento inserido é o primeiro a ser removido.
+
+3.  Listas (Lists):
+    Estruturas que permitem a organização de elementos de forma sequencial, podendo ser implementadas como listas encadeadas, listas duplamente encadeadas ou listas circulares, dependendo da necessidade de acesso e manipulação dos dados.
+
+# REFERÊNCIA:
+
+BALIEIRO, Ricardo. Estrutura de Dados. 1ªed. Rio de Janeiro: SESES - Estácio, 2015. Disponível em: https://hood.com.br/new/filegator/repository/Estrutura%20de%20Dados/10%20Livro%20Estrutura%20de%20Dados.pdf

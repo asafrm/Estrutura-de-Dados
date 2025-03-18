@@ -1,9 +1,15 @@
-Estruturas não lineares: hierárquicas, permitem que cada elemento esteja conectado a vários outros, formando uma organização mais complexa.
-Nesse tipo de estrutura, um elemento pode ter múltiplos elementos seguintes, sem seguir uma única sequência ordenada.
+# Estruturas de dados não lineares 
 
-EXEMPLOS:
-•Árvores
-•Grafos
+São aquelas que possuem uma organização hierárquica, permitindo que cada elemento esteja ligado a vários outros, formando uma estrutura mais complexa. Diferentemente das estruturas lineares, nas estruturas não lineares, um elemento pode ter múltiplos elementos subsequentes, sem seguir uma única sequência ordenada. Essa característica permite a representação de relações mais elaboradas entre os dados, como hierarquias, redes ou conexões multidirecionais, sendo amplamente utilizadas em problemas que exigem modelagem de relações complexas.
 
-FONTE:  https://hood.com.br/new/filegator/repository/Estrutura%20de%20Dados/10%20Livro%20Estrutura%20de%20Dados.pdf
+# Exemplos:
 
+1.  Árvores (Trees): 
+    Estruturas hierárquicas em que cada elemento (nó) pode estar conectado a um ou mais elementos subsequentes, formando uma relação de parentesco (nós pais e nós filhos). Um exemplo comum é a árvore binária, em que cada nó possui no máximo dois filhos.
+
+2.  Grafos (Graphs): 
+    Estruturas que consistem em um conjunto de vértices (ou nós) conectados por arestas, permitindo representar relações complexas e multidirecionais entre os elementos. Grafos podem ser direcionados ou não direcionados, dependendo da natureza das conexões entre os vértices.
+
+# REFERÊNCIA:
+
+BALIEIRO, Ricardo. Estrutura de Dados. 1ªed. Rio de Janeiro: SESES - Estácio, 2015. Disponível em: https://hood.com.br/new/filegator/repository/Estrutura%20de%20Dados/10%20Livro%20Estrutura%20de%20Dados.pdf
