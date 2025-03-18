@@ -15,3 +15,5 @@ programa.
 Alocação Dinâmica
 
 Na alocação dinâmica o espaço de memória, que as variáveis irão utilizar durante a execução do programa, é definido enquanto o programa está em execução. Ou seja, quando não se sabe ao certo quanto de memória será necessário para o armazenamento das informações, podendo ser determinadas, sob demanda, em tempo de execução conforme a necessidade do programa.
+
+fonte:https://si2014.wordpress.com/wp-content/uploads/2012/05/estrdado-materia-06-alocacao-de-memoria1.pdf
