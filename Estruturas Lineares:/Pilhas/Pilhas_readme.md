@@ -90,3 +90,9 @@ Para verificar se a pilha está vazia utilizamos a função nota.esta_vazia, com
 print("Verificando se não há notas cadastradas:", nota.esta_vazia())  # Saída: False (a pilha não está vazia)
 
 O valor retornado sera False, visto que a pilha possui elemntos cadastrados
+
+# REFERÊNCIAS:
+
+1.  MILLER, Brad. Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python. Projeto Panda, 2019. https://panda.ime.usp.br/panda/static/pythonds_pt/index.html. Acessado em: 18 mar. 2025.
+
+2.  CARVALHO, Thiago Leite. Estruturas de Dados. São Paulo: Casa do Código, 2024.

@@ -70,3 +70,10 @@ Como diferencial, um deque conto com método que possibilita a inserção de um 
 
     # Adiciona uma nota prioritária no início do deque
     deque_notas.appendleft(8.5)  # Nota prioritária do aluno 5
+
+
+# REFERÊNCIAS:
+
+1.  MILLER, Brad. Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python. Projeto Panda, 2019. https://panda.ime.usp.br/panda/static/pythonds_pt/index.html. Acessado em: 18 mar. 2025.
+
+2.  CARVALHO, Thiago Leite. Estruturas de Dados. São Paulo: Casa do Código, 2024.
