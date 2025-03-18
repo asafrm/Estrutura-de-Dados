@@ -52,4 +52,55 @@ Assim como na sala de aula, onde o professor pode adicionar novos alunos à list
 
 # Listas em Python
 
-Utilizando a classe list, criamos uma lista vazia 
+Utilizando a classe list, criamos uma lista vazia:
+
+    #Criando uma lista vazia para a chamada
+    lista_chamada = []
+
+Após a criação da lista, podemos adicionar novos elementos nela, no exemplo a seguir foram utilizados nomes de alunos presentes.
+
+    #Adicionando novos  alunos à lista (operacao append)
+    lista_chamada.append("Ana")
+    lista_chamada.append("Bruno")
+    lista_chamada.append("Carla")
+    lista_chamada.append("Daniel")
+
+Para verificarmos se a lista criada está vazia, realizamos o uso da operaçãao "isEmpty". Essa ferramenta é importante para verificarmos se os dados realmente foram inseridos na lista.
+
+    #Verificando se a lista está vazia (operacao isEmpty)
+    if not lista_chamada:
+        print("A lista de chamada está vazia.")
+else:
+    print("A lista de chamada não está vazia.")
+
+Para verificar o tamanho da lista fazemos a utilização da operação "size", verificando então quantos elementos estão presentes na lista. Sendo implementada no exemplo para vermos quantos alunos estão presentes.
+
+    #Verificando o tamanho da lista (operacao size)
+    print("Número de alunos na lista:", len(lista_chamada))
+
+Para buscarmos um elemento dentro da lista utilizamos uma variável e por meio de "if" "else" realizamos a busca (search). No exemplo usado, a operação serviu para verificar a presença de um aluno:
+
+    #Verificando se um aluno está presente na lista (operacao search)
+    aluno_procurado = "Carla"
+    if aluno_procurado in lista_chamada:
+        print(f"{aluno_procurado} está presente na lista.")
+    else:
+        print(f"{aluno_procurado} não está presente na lista.")
+
+Para buscarmos a posição que um elemento ocupa dentro da lista podemos utilizar a operação "index". Sendo implementado no seguinte exemplo:
+
+        #Acessando a posição de um aluno na lista (operacao index)
+        posicao = lista_chamada.index("Bruno")
+        print(f"Bruno está na posição {posicao + 1} da lista.")
+
+Caso o precise inserir um novo elemento na lista, fora do padrão FIFO, podemos fazer uso da operação "insert", que realiza a introdução de um elemento em uma posição expecífica dentro da lista, seguida da posição que deseje alocar o elemento e do então item a ser alocado.
+
+    #Inserindo um novo aluno em uma posição específica (operacao insert)
+    lista_chamada.insert(2, "Elisa")  # Inserindo "Elisa" na terceira posição (índice 2)
+    print("Lista após inserção de Elisa:", lista_chamada)
+
+Para realizarmos alterações como a remoção de um elemeento presente nafila, podemos fazer uso da ferramenta "remove()" seguido do elemento que se deseja remover , como apresentado no seguinte demonstrativo:
+
+    #Removendo um aluno da lista (operacao remove)
+    lista_chamada.remove("Daniel")
+    print("Lista após remoção de Daniel:", lista_chamada)
