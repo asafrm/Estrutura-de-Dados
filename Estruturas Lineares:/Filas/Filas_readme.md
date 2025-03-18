@@ -24,7 +24,13 @@ As filas são estruturas de dados que seguem o princípio **FIFO** (*First In, F
 
 Essas operações formam a base para a manipulação eficiente de filas, garantindo que a estrutura mantenha sua propriedade FIFO e permitindo o gerenciamento adequado dos elementos armazenados.
 
+# Filas em Python
 
+Em python temos a possibilidade de criarmos uma fila seguindo o padrão FIFO, deste modo, elaborando uma fila clássica, ou também podemos elaborar uma dfila de duas cabeças (deque). Analisando os dois formados temos:
+
+# Fila clássica
+
+Para criar uma fila clássica ou um deque vazio, utiliza-se o seguinte código:
 
 
 
