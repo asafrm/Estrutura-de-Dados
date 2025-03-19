@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Tipos de Dados:
-=======
 # Tipos de Dados
->>>>>>> ab39dc1858558d5f459fa351adf37707e980c7dc
 
 Os dados (e seus diversos tipos) são os blocos básicos da programação. Eles representam uma unidade ou um elemento de informação que pode ser acessado através de um identificador - por exemplo, uma variável.
 
@@ -13,4 +9,5 @@ FLOAT ou o chamado “ponto flutuante”: valores numéricos com casas após a v
 BOOLEAN ou booleanos: representado apenas por dois valores, “verdadeiro” e “falso”. Também chamados de operadores lógicos;
 TEXT: sequências ou cadeias de caracteres, utilizados para manipular textos e/ou outros tipos de dados não numéricos ou booleanos, como hashes de criptografia.
 
-Fonte:https://www.alura.com.brartigosestruturas-de-dados-introducaosrsltid=AfmBOoqL_6wI9Q9asdQ831AuktRTHG7WQL19lUKOKtoGAm3FeZB81H3T
+# REFERÊNCIA:
+AMOASEI, Julina. Estruturas de dados: introdução. Disponível em: https://www.alura.com.br/artigos/estruturas-de-dados-introducao?srsltid=AfmBOoqL_6wI9Q9asdQ831AuktRTHG7WQL19lUKOKtoGAm3FeZB81H3T. Acesso em: 10 out. 2023.
