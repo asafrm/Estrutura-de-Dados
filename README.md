@@ -1,3 +1,11 @@
+
+### Introdução a Estrutura de Dados 
+
+Uma estrutura de dados é um conjunto de teorias e práticas que definem como os dados podem ser armazenados, representados e manipulados de forma eficiente. Os dados, em sua forma bruta, são valores sem significado e, isoladamente, não possuem relevância. A estrutura, por sua vez, determina a organização desses dados, permitindo seu armazenamento e manipulação de maneira otimizada.
+
+A importância das estruturas de dados na Ciência da Computação reside no fato de que, sem elas, os processos executados pela máquina seriam significativamente mais onerosos. Com uma estrutura bem definida, cada dado possui um local específico para armazenamento, o que melhora o desempenho dos sistemas e otimiza a utilização de recursos computacionais
+
+
 ### Objetivo do Projeto
 
 O **Controlador de Notas** é um projeto desenvolvido para demonstrar a aplicação prática de estruturas de dados em Python, especificamente a utilização de uma fila (`deque`) para gerenciar e processar notas de forma organizada e eficiente. O objetivo principal é fornecer um exemplo didático de como implementar operações básicas de enfileiramento e desenfileiramento, com foco em validação de dados e processamento sequencial.
